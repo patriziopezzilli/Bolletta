@@ -7,14 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B65B89622AD69E2000D4631 /* ScacenzeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65B89522AD69E2000D4631 /* ScacenzeController.swift */; };
+		0B65B92822AD7471000D4631 /* NuovaBollettaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65B92722AD7471000D4631 /* NuovaBollettaController.swift */; };
+		0B65B92A22AD749A000D4631 /* DettaglioBollettaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65B92922AD749A000D4631 /* DettaglioBollettaController.swift */; };
+		0B65B92D22AD7A6B000D4631 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65B92C22AD7A6B000D4631 /* CustomTabBar.swift */; };
+		0B901EAF22AEE60700DEE235 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E7922AEE60500DEE235 /* CALayer+Hero.swift */; };
+		0B901EB022AEE60700DEE235 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E7A22AEE60500DEE235 /* Array+HeroModifier.swift */; };
+		0B901EB122AEE60700DEE235 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E7B22AEE60500DEE235 /* CG+Hero.swift */; };
+		0B901EB222AEE60700DEE235 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E7C22AEE60500DEE235 /* DispatchQueue+Hero.swift */; };
+		0B901EB322AEE60700DEE235 /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E7D22AEE60500DEE235 /* UIView+Hero.swift */; };
+		0B901EB422AEE60700DEE235 /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E7E22AEE60500DEE235 /* UIKit+Hero.swift */; };
+		0B901EB522AEE60700DEE235 /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E7F22AEE60500DEE235 /* UIViewController+Hero.swift */; };
+		0B901EB622AEE60700DEE235 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8022AEE60500DEE235 /* CAMediaTimingFunction+Hero.swift */; };
+		0B901EB722AEE60700DEE235 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8122AEE60600DEE235 /* HeroTypes.swift */; };
+		0B901EB822AEE60700DEE235 /* HeroModifier+Advanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8222AEE60600DEE235 /* HeroModifier+Advanced.swift */; };
+		0B901EB922AEE60700DEE235 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8322AEE60600DEE235 /* SwiftSupport.swift */; };
+		0B901EBA22AEE60700DEE235 /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8422AEE60600DEE235 /* HeroPlugin.swift */; };
+		0B901EBB22AEE60700DEE235 /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8622AEE60600DEE235 /* HeroTransition+Interactive.swift */; };
+		0B901EBC22AEE60700DEE235 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8722AEE60600DEE235 /* HeroProgressRunner.swift */; };
+		0B901EBD22AEE60700DEE235 /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8822AEE60600DEE235 /* HeroTransitionState.swift */; };
+		0B901EBE22AEE60700DEE235 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8922AEE60600DEE235 /* HeroTransition+Start.swift */; };
+		0B901EBF22AEE60700DEE235 /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8A22AEE60600DEE235 /* HeroTransition+CustomTransition.swift */; };
+		0B901EC022AEE60700DEE235 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8B22AEE60600DEE235 /* HeroTransition+Complete.swift */; };
+		0B901EC122AEE60700DEE235 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8C22AEE60600DEE235 /* HeroTransition+Animate.swift */; };
+		0B901EC222AEE60700DEE235 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8D22AEE60600DEE235 /* HeroTransition+UITabBarControllerDelegate.swift */; };
+		0B901EC322AEE60700DEE235 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8E22AEE60600DEE235 /* HeroTransition.swift */; };
+		0B901EC422AEE60700DEE235 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E8F22AEE60600DEE235 /* HeroTransition+UINavigationControllerDelegate.swift */; };
+		0B901EC522AEE60700DEE235 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9022AEE60600DEE235 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
+		0B901EC622AEE60700DEE235 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9322AEE60600DEE235 /* HeroCoreAnimationViewContext.swift */; };
+		0B901EC722AEE60700DEE235 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9422AEE60600DEE235 /* HeroViewPropertyViewContext.swift */; };
+		0B901EC822AEE60700DEE235 /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9522AEE60600DEE235 /* HeroDefaultAnimator.swift */; };
+		0B901EC922AEE60700DEE235 /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9622AEE60600DEE235 /* HeroAnimatorViewContext.swift */; };
+		0B901ECB22AEE60700DEE235 /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9822AEE60600DEE235 /* HeroModifier+HeroStringConvertible.swift */; };
+		0B901ECC22AEE60700DEE235 /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9922AEE60600DEE235 /* HeroModifier.swift */; };
+		0B901ECD22AEE60700DEE235 /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9A22AEE60600DEE235 /* HeroViewControllerDelegate.swift */; };
+		0B901ECE22AEE60700DEE235 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9C22AEE60600DEE235 /* HeroDebugPlugin.swift */; };
+		0B901ECF22AEE60700DEE235 /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9D22AEE60600DEE235 /* HeroDebugView.swift */; };
+		0B901ED022AEE60700DEE235 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901E9E22AEE60600DEE235 /* HeroTargetState.swift */; };
+		0B901ED122AEE60700DEE235 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EA022AEE60600DEE235 /* Lexer.swift */; };
+		0B901ED222AEE60700DEE235 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EA122AEE60600DEE235 /* Regex.swift */; };
+		0B901ED322AEE60700DEE235 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EA222AEE60600DEE235 /* Parser.swift */; };
+		0B901ED422AEE60700DEE235 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EA322AEE60600DEE235 /* Nodes.swift */; };
+		0B901ED522AEE60700DEE235 /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EA422AEE60600DEE235 /* HeroStringConvertible.swift */; };
+		0B901ED622AEE60700DEE235 /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EA622AEE60600DEE235 /* MatchPreprocessor.swift */; };
+		0B901ED722AEE60700DEE235 /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EA722AEE60600DEE235 /* BasePreprocessor.swift */; };
+		0B901ED822AEE60700DEE235 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EA822AEE60600DEE235 /* CascadePreprocessor.swift */; };
+		0B901ED922AEE60700DEE235 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EA922AEE60600DEE235 /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		0B901EDA22AEE60700DEE235 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EAA22AEE60600DEE235 /* ConditionalPreprocessor.swift */; };
+		0B901EDB22AEE60700DEE235 /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EAB22AEE60600DEE235 /* DefaultAnimationPreprocessor.swift */; };
+		0B901EDC22AEE60700DEE235 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EAC22AEE60600DEE235 /* SourcePreprocessor.swift */; };
+		0B901EDD22AEE60700DEE235 /* HeroCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EAD22AEE60700DEE235 /* HeroCompatible.swift */; };
+		0B901EDE22AEE60700DEE235 /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B901EAE22AEE60700DEE235 /* HeroContext.swift */; };
+		0BDD344E22AC43F1001A0274 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD344B22AC43F1001A0274 /* Chart.swift */; };
+		0BDD344F22AC43F1001A0274 /* ChartColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD344C22AC43F1001A0274 /* ChartColors.swift */; };
+		0BDD345022AC43F1001A0274 /* ChartSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD344D22AC43F1001A0274 /* ChartSeries.swift */; };
+		0BDD345322AC4811001A0274 /* AAPL.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BDD345222AC4811001A0274 /* AAPL.json */; };
+		0BDD345A22AC4C75001A0274 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD345922AC4C75001A0274 /* CustomTableViewCell.swift */; };
+		0BDF1F0C22B42BA200F53418 /* BottomCardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF1F0B22B42BA200F53418 /* BottomCardSegue.swift */; };
+		0BDF1F0E22B42C3200F53418 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF1F0D22B42C3200F53418 /* MenuController.swift */; };
 		0BFC2C4122AB074C00B27227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC2C4022AB074C00B27227 /* AppDelegate.swift */; };
-		0BFC2C4322AB074C00B27227 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC2C4222AB074C00B27227 /* FirstViewController.swift */; };
-		0BFC2C4522AB074C00B27227 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC2C4422AB074C00B27227 /* SecondViewController.swift */; };
+		0BFC2C4322AB074C00B27227 /* ContatoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC2C4222AB074C00B27227 /* ContatoreController.swift */; };
+		0BFC2C4522AB074C00B27227 /* ListaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC2C4422AB074C00B27227 /* ListaController.swift */; };
 		0BFC2C4822AB074C00B27227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BFC2C4622AB074C00B27227 /* Main.storyboard */; };
 		0BFC2C4A22AB074D00B27227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BFC2C4922AB074D00B27227 /* Assets.xcassets */; };
 		0BFC2C4D22AB074D00B27227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BFC2C4B22AB074D00B27227 /* LaunchScreen.storyboard */; };
 		0BFC2C5822AB074D00B27227 /* BollettaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC2C5722AB074D00B27227 /* BollettaTests.swift */; };
 		0BFC2C6322AB074D00B27227 /* BollettaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC2C6222AB074D00B27227 /* BollettaUITests.swift */; };
+		6D39178B4A6B94C29A96C881 /* Pods_Bolletta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AB103D4BE39D2313CBA7D2 /* Pods_Bolletta.framework */; };
+		88E894FC7D92EE20B674A1C2 /* Pods_BollettaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E140D5DF69980B9E849F6D54 /* Pods_BollettaTests.framework */; };
+		B063198568F4B97876DB8634 /* Pods_BollettaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78D147BC1378AEFB4FAA971 /* Pods_BollettaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +96,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B65B89522AD69E2000D4631 /* ScacenzeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScacenzeController.swift; sourceTree = "<group>"; };
+		0B65B92722AD7471000D4631 /* NuovaBollettaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuovaBollettaController.swift; sourceTree = "<group>"; };
+		0B65B92922AD749A000D4631 /* DettaglioBollettaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DettaglioBollettaController.swift; sourceTree = "<group>"; };
+		0B65B92C22AD7A6B000D4631 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		0B901E7922AEE60500DEE235 /* CALayer+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Hero.swift"; sourceTree = "<group>"; };
+		0B901E7A22AEE60500DEE235 /* Array+HeroModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		0B901E7B22AEE60500DEE235 /* CG+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CG+Hero.swift"; sourceTree = "<group>"; };
+		0B901E7C22AEE60500DEE235 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		0B901E7D22AEE60500DEE235 /* UIView+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Hero.swift"; sourceTree = "<group>"; };
+		0B901E7E22AEE60500DEE235 /* UIKit+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Hero.swift"; sourceTree = "<group>"; };
+		0B901E7F22AEE60500DEE235 /* UIViewController+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Hero.swift"; sourceTree = "<group>"; };
+		0B901E8022AEE60500DEE235 /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		0B901E8122AEE60600DEE235 /* HeroTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTypes.swift; sourceTree = "<group>"; };
+		0B901E8222AEE60600DEE235 /* HeroModifier+Advanced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeroModifier+Advanced.swift"; sourceTree = "<group>"; };
+		0B901E8322AEE60600DEE235 /* SwiftSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSupport.swift; sourceTree = "<group>"; };
+		0B901E8422AEE60600DEE235 /* HeroPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroPlugin.swift; sourceTree = "<group>"; };
+		0B901E8622AEE60600DEE235 /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
+		0B901E8722AEE60600DEE235 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroProgressRunner.swift; sourceTree = "<group>"; };
+		0B901E8822AEE60600DEE235 /* HeroTransitionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTransitionState.swift; sourceTree = "<group>"; };
+		0B901E8922AEE60600DEE235 /* HeroTransition+Start.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		0B901E8A22AEE60600DEE235 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		0B901E8B22AEE60600DEE235 /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeroTransition+Complete.swift"; sourceTree = "<group>"; };
+		0B901E8C22AEE60600DEE235 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeroTransition+Animate.swift"; sourceTree = "<group>"; };
+		0B901E8D22AEE60600DEE235 /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		0B901E8E22AEE60600DEE235 /* HeroTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTransition.swift; sourceTree = "<group>"; };
+		0B901E8F22AEE60600DEE235 /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		0B901E9022AEE60600DEE235 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		0B901E9122AEE60600DEE235 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		0B901E9322AEE60600DEE235 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		0B901E9422AEE60600DEE235 /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		0B901E9522AEE60600DEE235 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		0B901E9622AEE60600DEE235 /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		0B901E9822AEE60600DEE235 /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		0B901E9922AEE60600DEE235 /* HeroModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroModifier.swift; sourceTree = "<group>"; };
+		0B901E9A22AEE60600DEE235 /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
+		0B901E9C22AEE60600DEE235 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDebugPlugin.swift; sourceTree = "<group>"; };
+		0B901E9D22AEE60600DEE235 /* HeroDebugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDebugView.swift; sourceTree = "<group>"; };
+		0B901E9E22AEE60600DEE235 /* HeroTargetState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTargetState.swift; sourceTree = "<group>"; };
+		0B901EA022AEE60600DEE235 /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		0B901EA122AEE60600DEE235 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		0B901EA222AEE60600DEE235 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		0B901EA322AEE60600DEE235 /* Nodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nodes.swift; sourceTree = "<group>"; };
+		0B901EA422AEE60600DEE235 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroStringConvertible.swift; sourceTree = "<group>"; };
+		0B901EA622AEE60600DEE235 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchPreprocessor.swift; sourceTree = "<group>"; };
+		0B901EA722AEE60600DEE235 /* BasePreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePreprocessor.swift; sourceTree = "<group>"; };
+		0B901EA822AEE60600DEE235 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CascadePreprocessor.swift; sourceTree = "<group>"; };
+		0B901EA922AEE60600DEE235 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		0B901EAA22AEE60600DEE235 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		0B901EAB22AEE60600DEE235 /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		0B901EAC22AEE60600DEE235 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourcePreprocessor.swift; sourceTree = "<group>"; };
+		0B901EAD22AEE60700DEE235 /* HeroCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCompatible.swift; sourceTree = "<group>"; };
+		0B901EAE22AEE60700DEE235 /* HeroContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroContext.swift; sourceTree = "<group>"; };
+		0BDD344B22AC43F1001A0274 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		0BDD344C22AC43F1001A0274 /* ChartColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartColors.swift; sourceTree = "<group>"; };
+		0BDD344D22AC43F1001A0274 /* ChartSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartSeries.swift; sourceTree = "<group>"; };
+		0BDD345222AC4811001A0274 /* AAPL.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AAPL.json; sourceTree = "<group>"; };
+		0BDD345922AC4C75001A0274 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		0BDF1F0B22B42BA200F53418 /* BottomCardSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCardSegue.swift; sourceTree = "<group>"; };
+		0BDF1F0D22B42C3200F53418 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		0BFC2C3D22AB074C00B27227 /* Bolletta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bolletta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BFC2C4022AB074C00B27227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BFC2C4222AB074C00B27227 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0BFC2C4422AB074C00B27227 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0BFC2C4222AB074C00B27227 /* ContatoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatoreController.swift; sourceTree = "<group>"; };
+		0BFC2C4422AB074C00B27227 /* ListaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaController.swift; sourceTree = "<group>"; };
 		0BFC2C4722AB074C00B27227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BFC2C4922AB074D00B27227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BFC2C4C22AB074D00B27227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +169,15 @@
 		0BFC2C5E22AB074D00B27227 /* BollettaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BollettaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BFC2C6222AB074D00B27227 /* BollettaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BollettaUITests.swift; sourceTree = "<group>"; };
 		0BFC2C6422AB074D00B27227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474F46D3250BBB1CE5A58AFA /* Pods-BollettaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BollettaUITests.debug.xcconfig"; path = "Target Support Files/Pods-BollettaUITests/Pods-BollettaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64491FD118F118B88BC56D81 /* Pods-BollettaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BollettaUITests.release.xcconfig"; path = "Target Support Files/Pods-BollettaUITests/Pods-BollettaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		846AE9FF2B1B5C2D2130D622 /* Pods-Bolletta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bolletta.release.xcconfig"; path = "Target Support Files/Pods-Bolletta/Pods-Bolletta.release.xcconfig"; sourceTree = "<group>"; };
+		8B770773B907EAA9E1E0B007 /* Pods-BollettaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BollettaTests.release.xcconfig"; path = "Target Support Files/Pods-BollettaTests/Pods-BollettaTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C04ABBE1DB34F523FF3FF02 /* Pods-Bolletta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bolletta.debug.xcconfig"; path = "Target Support Files/Pods-Bolletta/Pods-Bolletta.debug.xcconfig"; sourceTree = "<group>"; };
+		B7AB103D4BE39D2313CBA7D2 /* Pods_Bolletta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bolletta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78D147BC1378AEFB4FAA971 /* Pods_BollettaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BollettaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB6124544DAD3602ACF5D62 /* Pods-BollettaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BollettaTests.debug.xcconfig"; path = "Target Support Files/Pods-BollettaTests/Pods-BollettaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E140D5DF69980B9E849F6D54 /* Pods_BollettaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BollettaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D39178B4A6B94C29A96C881 /* Pods_Bolletta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E894FC7D92EE20B674A1C2 /* Pods_BollettaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +201,164 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B063198568F4B97876DB8634 /* Pods_BollettaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B65B92B22AD74B2000D4631 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BFC2C4222AB074C00B27227 /* ContatoreController.swift */,
+				0BFC2C4422AB074C00B27227 /* ListaController.swift */,
+				0B65B89522AD69E2000D4631 /* ScacenzeController.swift */,
+				0B65B92722AD7471000D4631 /* NuovaBollettaController.swift */,
+				0B65B92922AD749A000D4631 /* DettaglioBollettaController.swift */,
+				0B65B92C22AD7A6B000D4631 /* CustomTabBar.swift */,
+				0BDF1F0D22B42C3200F53418 /* MenuController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0B901E7722AEE5F500DEE235 /* hero_animation */ = {
+			isa = PBXGroup;
+			children = (
+				0B901E9222AEE60600DEE235 /* Animator */,
+				0B901E9B22AEE60600DEE235 /* Debug Plugin */,
+				0B901E7822AEE60500DEE235 /* Extensions */,
+				0B901E9122AEE60600DEE235 /* Hero.h */,
+				0B901EAD22AEE60700DEE235 /* HeroCompatible.swift */,
+				0B901EAE22AEE60700DEE235 /* HeroContext.swift */,
+				0B901E9922AEE60600DEE235 /* HeroModifier.swift */,
+				0B901E8222AEE60600DEE235 /* HeroModifier+Advanced.swift */,
+				0B901E9822AEE60600DEE235 /* HeroModifier+HeroStringConvertible.swift */,
+				0B901E8422AEE60600DEE235 /* HeroPlugin.swift */,
+				0B901E9E22AEE60600DEE235 /* HeroTargetState.swift */,
+				0B901E8122AEE60600DEE235 /* HeroTypes.swift */,
+				0B901E9A22AEE60600DEE235 /* HeroViewControllerDelegate.swift */,
+				0B901E9F22AEE60600DEE235 /* Parser */,
+				0B901EA522AEE60600DEE235 /* Preprocessors */,
+				0B901E8322AEE60600DEE235 /* SwiftSupport.swift */,
+				0B901E8522AEE60600DEE235 /* Transition */,
+			);
+			path = hero_animation;
+			sourceTree = "<group>";
+		};
+		0B901E7822AEE60500DEE235 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0B901E7922AEE60500DEE235 /* CALayer+Hero.swift */,
+				0B901E7A22AEE60500DEE235 /* Array+HeroModifier.swift */,
+				0B901E7B22AEE60500DEE235 /* CG+Hero.swift */,
+				0B901E7C22AEE60500DEE235 /* DispatchQueue+Hero.swift */,
+				0B901E7D22AEE60500DEE235 /* UIView+Hero.swift */,
+				0B901E7E22AEE60500DEE235 /* UIKit+Hero.swift */,
+				0B901E7F22AEE60500DEE235 /* UIViewController+Hero.swift */,
+				0B901E8022AEE60500DEE235 /* CAMediaTimingFunction+Hero.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0B901E8522AEE60600DEE235 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				0B901E8622AEE60600DEE235 /* HeroTransition+Interactive.swift */,
+				0B901E8722AEE60600DEE235 /* HeroProgressRunner.swift */,
+				0B901E8822AEE60600DEE235 /* HeroTransitionState.swift */,
+				0B901E8922AEE60600DEE235 /* HeroTransition+Start.swift */,
+				0B901E8A22AEE60600DEE235 /* HeroTransition+CustomTransition.swift */,
+				0B901E8B22AEE60600DEE235 /* HeroTransition+Complete.swift */,
+				0B901E8C22AEE60600DEE235 /* HeroTransition+Animate.swift */,
+				0B901E8D22AEE60600DEE235 /* HeroTransition+UITabBarControllerDelegate.swift */,
+				0B901E8E22AEE60600DEE235 /* HeroTransition.swift */,
+				0B901E8F22AEE60600DEE235 /* HeroTransition+UINavigationControllerDelegate.swift */,
+				0B901E9022AEE60600DEE235 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		0B901E9222AEE60600DEE235 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				0B901E9322AEE60600DEE235 /* HeroCoreAnimationViewContext.swift */,
+				0B901E9422AEE60600DEE235 /* HeroViewPropertyViewContext.swift */,
+				0B901E9522AEE60600DEE235 /* HeroDefaultAnimator.swift */,
+				0B901E9622AEE60600DEE235 /* HeroAnimatorViewContext.swift */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		0B901E9B22AEE60600DEE235 /* Debug Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				0B901E9C22AEE60600DEE235 /* HeroDebugPlugin.swift */,
+				0B901E9D22AEE60600DEE235 /* HeroDebugView.swift */,
+			);
+			path = "Debug Plugin";
+			sourceTree = "<group>";
+		};
+		0B901E9F22AEE60600DEE235 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				0B901EA022AEE60600DEE235 /* Lexer.swift */,
+				0B901EA122AEE60600DEE235 /* Regex.swift */,
+				0B901EA222AEE60600DEE235 /* Parser.swift */,
+				0B901EA322AEE60600DEE235 /* Nodes.swift */,
+				0B901EA422AEE60600DEE235 /* HeroStringConvertible.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		0B901EA522AEE60600DEE235 /* Preprocessors */ = {
+			isa = PBXGroup;
+			children = (
+				0B901EA622AEE60600DEE235 /* MatchPreprocessor.swift */,
+				0B901EA722AEE60600DEE235 /* BasePreprocessor.swift */,
+				0B901EA822AEE60600DEE235 /* CascadePreprocessor.swift */,
+				0B901EA922AEE60600DEE235 /* IgnoreSubviewModifiersPreprocessor.swift */,
+				0B901EAA22AEE60600DEE235 /* ConditionalPreprocessor.swift */,
+				0B901EAB22AEE60600DEE235 /* DefaultAnimationPreprocessor.swift */,
+				0B901EAC22AEE60600DEE235 /* SourcePreprocessor.swift */,
+			);
+			path = Preprocessors;
+			sourceTree = "<group>";
+		};
+		0BDD344A22AC43D9001A0274 /* chart */ = {
+			isa = PBXGroup;
+			children = (
+				0BDD344B22AC43F1001A0274 /* Chart.swift */,
+				0BDD344C22AC43F1001A0274 /* ChartColors.swift */,
+				0BDD344D22AC43F1001A0274 /* ChartSeries.swift */,
+			);
+			path = chart;
+			sourceTree = "<group>";
+		};
+		0BDD345122AC47EE001A0274 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BDD345222AC4811001A0274 /* AAPL.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		0BDD345622AC4BFC001A0274 /* tabella */ = {
+			isa = PBXGroup;
+			children = (
+				0BDD345922AC4C75001A0274 /* CustomTableViewCell.swift */,
+			);
+			path = tabella;
+			sourceTree = "<group>";
+		};
+		0BDF1F0822B42B5A00F53418 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				0BDF1F0B22B42BA200F53418 /* BottomCardSegue.swift */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
 		0BFC2C3422AB074C00B27227 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +366,8 @@
 				0BFC2C5622AB074D00B27227 /* BollettaTests */,
 				0BFC2C6122AB074D00B27227 /* BollettaUITests */,
 				0BFC2C3E22AB074C00B27227 /* Products */,
+				BCE742CEAEA6DB4500095D8F /* Pods */,
+				606D136F2A39D44D48E35ED6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +384,13 @@
 		0BFC2C3F22AB074C00B27227 /* Bolletta */ = {
 			isa = PBXGroup;
 			children = (
+				0BDF1F0822B42B5A00F53418 /* animation */,
+				0B901E7722AEE5F500DEE235 /* hero_animation */,
+				0B65B92B22AD74B2000D4631 /* controller */,
+				0BDD345622AC4BFC001A0274 /* tabella */,
+				0BDD345122AC47EE001A0274 /* resources */,
+				0BDD344A22AC43D9001A0274 /* chart */,
 				0BFC2C4022AB074C00B27227 /* AppDelegate.swift */,
-				0BFC2C4222AB074C00B27227 /* FirstViewController.swift */,
-				0BFC2C4422AB074C00B27227 /* SecondViewController.swift */,
 				0BFC2C4622AB074C00B27227 /* Main.storyboard */,
 				0BFC2C4922AB074D00B27227 /* Assets.xcassets */,
 				0BFC2C4B22AB074D00B27227 /* LaunchScreen.storyboard */,
@@ -128,6 +417,29 @@
 			path = BollettaUITests;
 			sourceTree = "<group>";
 		};
+		606D136F2A39D44D48E35ED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7AB103D4BE39D2313CBA7D2 /* Pods_Bolletta.framework */,
+				E140D5DF69980B9E849F6D54 /* Pods_BollettaTests.framework */,
+				C78D147BC1378AEFB4FAA971 /* Pods_BollettaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCE742CEAEA6DB4500095D8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C04ABBE1DB34F523FF3FF02 /* Pods-Bolletta.debug.xcconfig */,
+				846AE9FF2B1B5C2D2130D622 /* Pods-Bolletta.release.xcconfig */,
+				DAB6124544DAD3602ACF5D62 /* Pods-BollettaTests.debug.xcconfig */,
+				8B770773B907EAA9E1E0B007 /* Pods-BollettaTests.release.xcconfig */,
+				474F46D3250BBB1CE5A58AFA /* Pods-BollettaUITests.debug.xcconfig */,
+				64491FD118F118B88BC56D81 /* Pods-BollettaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +447,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BFC2C6722AB074D00B27227 /* Build configuration list for PBXNativeTarget "Bolletta" */;
 			buildPhases = (
+				B9754FAFD04936F5C4D79D9E /* [CP] Check Pods Manifest.lock */,
 				0BFC2C3922AB074C00B27227 /* Sources */,
 				0BFC2C3A22AB074C00B27227 /* Frameworks */,
 				0BFC2C3B22AB074C00B27227 /* Resources */,
@@ -152,6 +465,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BFC2C6A22AB074D00B27227 /* Build configuration list for PBXNativeTarget "BollettaTests" */;
 			buildPhases = (
+				5B572F86FD0E96D46C9A5BB8 /* [CP] Check Pods Manifest.lock */,
 				0BFC2C4F22AB074D00B27227 /* Sources */,
 				0BFC2C5022AB074D00B27227 /* Frameworks */,
 				0BFC2C5122AB074D00B27227 /* Resources */,
@@ -170,6 +484,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BFC2C6D22AB074D00B27227 /* Build configuration list for PBXNativeTarget "BollettaUITests" */;
 			buildPhases = (
+				78EBFABF4C43595F6DB2FE1C /* [CP] Check Pods Manifest.lock */,
 				0BFC2C5A22AB074D00B27227 /* Sources */,
 				0BFC2C5B22AB074D00B27227 /* Frameworks */,
 				0BFC2C5C22AB074D00B27227 /* Resources */,
@@ -196,13 +511,16 @@
 				TargetAttributes = {
 					0BFC2C3C22AB074C00B27227 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					0BFC2C5222AB074D00B27227 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = 0BFC2C3C22AB074C00B27227;
 					};
 					0BFC2C5D22AB074D00B27227 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = 0BFC2C3C22AB074C00B27227;
 					};
 				};
@@ -235,6 +553,7 @@
 				0BFC2C4D22AB074D00B27227 /* LaunchScreen.storyboard in Resources */,
 				0BFC2C4A22AB074D00B27227 /* Assets.xcassets in Resources */,
 				0BFC2C4822AB074C00B27227 /* Main.storyboard in Resources */,
+				0BDD345322AC4811001A0274 /* AAPL.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +573,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B572F86FD0E96D46C9A5BB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BollettaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78EBFABF4C43595F6DB2FE1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BollettaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9754FAFD04936F5C4D79D9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bolletta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BFC2C3922AB074C00B27227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BFC2C4522AB074C00B27227 /* SecondViewController.swift in Sources */,
+				0B65B92A22AD749A000D4631 /* DettaglioBollettaController.swift in Sources */,
+				0B901ED322AEE60700DEE235 /* Parser.swift in Sources */,
+				0B901EB722AEE60700DEE235 /* HeroTypes.swift in Sources */,
+				0B901EDA22AEE60700DEE235 /* ConditionalPreprocessor.swift in Sources */,
+				0B901EBF22AEE60700DEE235 /* HeroTransition+CustomTransition.swift in Sources */,
+				0BDD344E22AC43F1001A0274 /* Chart.swift in Sources */,
+				0B901EB522AEE60700DEE235 /* UIViewController+Hero.swift in Sources */,
+				0B65B89622AD69E2000D4631 /* ScacenzeController.swift in Sources */,
+				0B901ECD22AEE60700DEE235 /* HeroViewControllerDelegate.swift in Sources */,
+				0B901EAF22AEE60700DEE235 /* CALayer+Hero.swift in Sources */,
+				0B65B92D22AD7A6B000D4631 /* CustomTabBar.swift in Sources */,
+				0B901EC322AEE60700DEE235 /* HeroTransition.swift in Sources */,
+				0B901EBC22AEE60700DEE235 /* HeroProgressRunner.swift in Sources */,
+				0B901ED922AEE60700DEE235 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				0B901EB422AEE60700DEE235 /* UIKit+Hero.swift in Sources */,
+				0B901EB022AEE60700DEE235 /* Array+HeroModifier.swift in Sources */,
+				0B65B92822AD7471000D4631 /* NuovaBollettaController.swift in Sources */,
+				0B901EB122AEE60700DEE235 /* CG+Hero.swift in Sources */,
+				0B901EB222AEE60700DEE235 /* DispatchQueue+Hero.swift in Sources */,
+				0B901ECF22AEE60700DEE235 /* HeroDebugView.swift in Sources */,
+				0B901EDB22AEE60700DEE235 /* DefaultAnimationPreprocessor.swift in Sources */,
+				0BFC2C4522AB074C00B27227 /* ListaController.swift in Sources */,
+				0B901EC022AEE60700DEE235 /* HeroTransition+Complete.swift in Sources */,
+				0B901EC622AEE60700DEE235 /* HeroCoreAnimationViewContext.swift in Sources */,
+				0B901ECC22AEE60700DEE235 /* HeroModifier.swift in Sources */,
+				0B901EC722AEE60700DEE235 /* HeroViewPropertyViewContext.swift in Sources */,
+				0B901ECB22AEE60700DEE235 /* HeroModifier+HeroStringConvertible.swift in Sources */,
+				0B901EDD22AEE60700DEE235 /* HeroCompatible.swift in Sources */,
+				0B901EDC22AEE60700DEE235 /* SourcePreprocessor.swift in Sources */,
 				0BFC2C4122AB074C00B27227 /* AppDelegate.swift in Sources */,
-				0BFC2C4322AB074C00B27227 /* FirstViewController.swift in Sources */,
+				0B901EC522AEE60700DEE235 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				0B901EBA22AEE60700DEE235 /* HeroPlugin.swift in Sources */,
+				0B901ED822AEE60700DEE235 /* CascadePreprocessor.swift in Sources */,
+				0B901ED022AEE60700DEE235 /* HeroTargetState.swift in Sources */,
+				0B901EC222AEE60700DEE235 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
+				0BDD345A22AC4C75001A0274 /* CustomTableViewCell.swift in Sources */,
+				0BDF1F0C22B42BA200F53418 /* BottomCardSegue.swift in Sources */,
+				0BDD345022AC43F1001A0274 /* ChartSeries.swift in Sources */,
+				0B901ED422AEE60700DEE235 /* Nodes.swift in Sources */,
+				0B901EB822AEE60700DEE235 /* HeroModifier+Advanced.swift in Sources */,
+				0BDF1F0E22B42C3200F53418 /* MenuController.swift in Sources */,
+				0B901EC822AEE60700DEE235 /* HeroDefaultAnimator.swift in Sources */,
+				0B901EBB22AEE60700DEE235 /* HeroTransition+Interactive.swift in Sources */,
+				0B901EDE22AEE60700DEE235 /* HeroContext.swift in Sources */,
+				0B901EBD22AEE60700DEE235 /* HeroTransitionState.swift in Sources */,
+				0B901ED122AEE60700DEE235 /* Lexer.swift in Sources */,
+				0B901ED222AEE60700DEE235 /* Regex.swift in Sources */,
+				0B901EC922AEE60700DEE235 /* HeroAnimatorViewContext.swift in Sources */,
+				0B901EBE22AEE60700DEE235 /* HeroTransition+Start.swift in Sources */,
+				0B901ED622AEE60700DEE235 /* MatchPreprocessor.swift in Sources */,
+				0B901EC122AEE60700DEE235 /* HeroTransition+Animate.swift in Sources */,
+				0BFC2C4322AB074C00B27227 /* ContatoreController.swift in Sources */,
+				0B901EB322AEE60700DEE235 /* UIView+Hero.swift in Sources */,
+				0B901EB922AEE60700DEE235 /* SwiftSupport.swift in Sources */,
+				0B901ED522AEE60700DEE235 /* HeroStringConvertible.swift in Sources */,
+				0B901EC422AEE60700DEE235 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */,
+				0BDD344F22AC43F1001A0274 /* ChartColors.swift in Sources */,
+				0B901ECE22AEE60700DEE235 /* HeroDebugPlugin.swift in Sources */,
+				0B901EB622AEE60700DEE235 /* CAMediaTimingFunction+Hero.swift in Sources */,
+				0B901ED722AEE60700DEE235 /* BasePreprocessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,8 +879,10 @@
 		};
 		0BFC2C6822AB074D00B27227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C04ABBE1DB34F523FF3FF02 /* Pods-Bolletta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RBKZN3272M;
 				INFOPLIST_FILE = Bolletta/Info.plist;
@@ -445,15 +892,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.patriziopezzilli.Bolletta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		0BFC2C6922AB074D00B27227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846AE9FF2B1B5C2D2130D622 /* Pods-Bolletta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RBKZN3272M;
 				INFOPLIST_FILE = Bolletta/Info.plist;
@@ -463,13 +914,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.patriziopezzilli.Bolletta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		0BFC2C6B22AB074D00B27227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB6124544DAD3602ACF5D62 /* Pods-BollettaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,7 +936,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.patriziopezzilli.BollettaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bolletta.app/Bolletta";
 			};
@@ -491,6 +944,7 @@
 		};
 		0BFC2C6C22AB074D00B27227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B770773B907EAA9E1E0B007 /* Pods-BollettaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,7 +958,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.patriziopezzilli.BollettaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bolletta.app/Bolletta";
 			};
@@ -512,6 +966,7 @@
 		};
 		0BFC2C6E22AB074D00B27227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474F46D3250BBB1CE5A58AFA /* Pods-BollettaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,7 +979,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.patriziopezzilli.BollettaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Bolletta;
 			};
@@ -532,6 +987,7 @@
 		};
 		0BFC2C6F22AB074D00B27227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64491FD118F118B88BC56D81 /* Pods-BollettaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,7 +1000,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.patriziopezzilli.BollettaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Bolletta;
 			};

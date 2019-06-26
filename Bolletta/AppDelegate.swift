@@ -8,6 +8,8 @@
 
 import UIKit
 
+let defaults = UserDefaults.standard
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +18,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // recupera liste
+        if(nil != defaults.array(forKey: "E")) {
+            elettricita_transazioni = defaults.array(forKey: "E") as! [Transazione]
+        }
+        
+        if(nil != defaults.array(forKey: "G")) {
+        gas_transazioni = defaults.array(forKey: "G") as! [Transazione]
+        }
+        
+        if(nil != defaults.array(forKey: "A")) {
+        acqua_transazioni = defaults.array(forKey: "A") as! [Transazione]
+        }
+        
+        if(nil != defaults.array(forKey: "T")) {
+        telefono_transazioni = defaults.array(forKey: "T") as! [Transazione]
+        }
+        
         return true
     }
 
@@ -25,8 +45,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        // salva liste
+        defaults.set(elettricita_transazioni, forKey: "E")
+        defaults.set(gas_transazioni, forKey: "G")
+        defaults.set(acqua_transazioni, forKey: "A")
+        defaults.set(telefono_transazioni, forKey: "T")
+        
+        defaults.synchronize()
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -38,7 +63,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        // salva liste
+        defaults.set(elettricita_transazioni, forKey: "E")
+        defaults.set(gas_transazioni, forKey: "G")
+        defaults.set(acqua_transazioni, forKey: "A")
+        defaults.set(telefono_transazioni, forKey: "T")
+        
+        defaults.synchronize()
     }
 
 
